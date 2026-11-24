@@ -142,11 +142,10 @@ export default async function handler(req, res) {
             priority: "high",
             ttl: "86400s",
             notification: {
-              channel_id: "pesan_penting",
+              channel_id: "pesan_masuk_v2",
               notification_priority: "PRIORITY_MAX",
               default_sound: true,
               default_vibrate_timings: true,
-              sound: "default",
               tag: tagNotif
             }
           },
